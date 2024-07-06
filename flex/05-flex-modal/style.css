@@ -15,11 +15,36 @@ body {
   justify-content: center;
 }
 
+.left {
+  margin: 10px;
+}
+
+.right {
+  margin-right: 10px;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+}
+
+.linethree {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.lineone {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.linetwo {
+  margin-top: 10px;
+  font-weight: 300;
 }
 
 .icon {
@@ -48,6 +73,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  margin-right: 10px;
 }
 
 button {
@@ -66,4 +92,9 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.header {
+  font-size: large;
+  font-weight: bolder;
 }
